@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="http://localhost/css/mystyle.css"/> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+	<title></title>
+	<style type="text/css">
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+input[type="submit"],input[type='reset']
+{
+  border:none;
+  outline: none;
+  height: 40px;
+  background: blue;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+input[type="submit"]:hover,input[type='reset']:hover
+{
+  cursor: pointer;
+  background: black;
+  color: white;
+
+}
+a:hover, a:active  {
+  background-color: blue;
+}
+.tabular{
+  width: 900px;
+  margin-left: 20%;
+  background-color: white;
+
+}
+.table
+{
+  width: 600px;
+  padding: 25px;
+  margin-left: 20%;
+  margin-top:20px;
+  background-color: orange;
+  border-radius: 2px;
+  
+}
+@media screen and (max-width: 650px)
+{
+  
+  #overla p
+  {
+    font-size: 15px;
+  }
+  #overla table
+  {
+    font-size: 10px;
+    
+    margin-left: 1%;
+    font-size: 15px;
+    padding: 0px;
+  }
+  .tabular{
+     position: absolute;
+  margin-left: 0%;
+  width: 550px;
+  left: 0px;
+  background-color: white;
+  display: block;
+
+}
+.tabular h1
+{
+
+  font-size: 16px;
+  margin-left: 0%;
+}
+.table
+{
+  width: 450px;
+ 
+  margin-left: 0px;
+  margin-top:20px;
+  background-color: orange;
+  border-radius: 2px;
+  display: block;
+  overflow-x:auto;
+  
+}
+}
+	</style>
+
+</head>
+<body>
+	
+			<header style="background:transparent;"  id="jumbo" style="height: 100px;border-radius: 1px;">
+  <center><img style="position: relative;left: 0px;width: 140px;height: 150px; padding-top: 30px" src="https://upload.wikimedia.org/wikipedia/en/9/9b/Thapar_Institute_of_Engineering_and_Technology_University_logo.png" align="left" alt="" class="rectangle responsive-img">
+      <h1 style="padding-top: 30px"><b style="transform: translate(-50%, -50%);">  THAPAR INSTITUTE OF TECHNOLOGY</b></h1>
+      <a class="fa fa-arrow-circle-left" href="http://localhost/html/homepage.html">BACK</a></center>
+  </header>
+	
+
+	<div class="tabular">
+  <table class="table">
+  <form  action="http://localhost/php/adminpage.php" method="POST">
+    <tr><td><div class="imgcontainer">
+  
+      <img src="http://localhost/images/img_avatar.png" style="width: 100px; height:100px;" alt="Avatar" class="avatar" >
+    </div></td></tr>
+
+    
+      <tr><td><label for="aid"><b>ADMIN ID</b></label>
+      <input type="text" placeholder="Enter Admin Id" name="aid" required></td></tr>
+
+      <tr><td>
+        <label for="psw"><b>PASSWORD</b></label>         
+      <input  type="password" placeholder="Enter password" name="psw" required>
+      </td></tr>
+
+        
+      <tr><td><input type="submit" value="LOGIN"></input>
+        <input type="reset" value="CLEAR"></input>
+      </td></tr>
+  </form>
+</table>
+
+
+</div>
+ <div class="footer">
+  <p>"knowledge is power"</p>
+</div>
+</body>
+</html>

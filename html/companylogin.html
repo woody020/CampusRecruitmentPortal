@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="http://localhost/css/mystyle.css"/> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  background:url('https://www.friendzion.com/locations/tirupur/images/leading-software-companies-tirupur.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.loginbox
+{
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.avat
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left:calc(50%-50px);
+
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+
+}
+.loginbox p
+{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.loginbox input
+{
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+.loginbox input[type="text"],input[type="password"]
+{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:#fff;
+  font-size: 20px;
+
+}
+.loginbox input[type="submit"]
+{
+  border:none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active  {
+  background-color: blue;
+}
+</style>
+</head>
+<body >
+	
+
+        
+     <header style="background:transparent;"  id="jumbo" style="height: 100px;border-radius: 1px;">
+    <img style="position: relative;left:200px;width: 140px;height: 150px; padding-top: 30px" src="https://upload.wikimedia.org/wikipedia/en/9/9b/Thapar_Institute_of_Engineering_and_Technology_University_logo.png" align="left" alt="" class="rectangle responsive-img">
+      <center><h1 style="padding-top: 30px"><b style="transform: translate(-50%, -50%);">  THAPAR INSTITUTE OF TECHNOLOGY</b></h1>
+      <a class="fa fa-arrow-circle-left" href="http://localhost/html/homepage.html">BACK</a></center>
+  </header>
+  
+	<br>
+	<hr>
+
+<div class="loginbox">
+  
+    <img src="http://localhost/images/img_avatar.png" class="avat">
+    <h1>Company Login Here</h1>
+  <form class="modal-content-animate" action="http://localhost/php/companypage.php" method="POST">
+    
+    
+      <p>Company Id</p>
+      <input type="text" placeholder="Enter Company Id" name="cid" required>
+
+      <p>Company Password</p>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <input type="submit" value="login"></login>
+      
+        <input type="reset" name="" value="reset"><br>
+
+      
+  </form>
+  
+
+
+</div>
+ <div class="footer">
+  <p>"knowledge is power"</p>
+</div>
+</body>
+</html>
